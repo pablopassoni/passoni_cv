@@ -1,11 +1,76 @@
-p {
-   color:blue;
-}
 /*
 Comentarios 
 */
-h1 {
-    color: red;
-    border: 1px solid red;
+body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;   
+   font-size: 14px;
+}
+table, tr, td {   
+   border-collapse: collapse;
  }
- 
+.td_izquiera {
+   background-color: #f8dfbe;   
+   border: 1px ;
+   padding: 1px;
+   border-radius: 5px;      
+}
+.td_titulo1 {
+   
+   background-color: #34495E;
+   border: 1px ;
+   padding: 30px;
+   text-align: center;
+   border-radius: 5px;         
+}
+.td_detalle {   
+   border-bottom: 1px solid grey;
+   
+}
+.anios {   
+   color: gray;   
+   font-style: italic;
+}
+.empresa {   
+   font-weight: bold;   
+   font-size: 16px;
+}
+.posicion {   
+   color: gray;      
+   font-weight: bold;   
+}
+
+h1 {
+   background-color: #34495E;
+   color: white;
+   border: 1px ;
+   padding: 1px;
+   font-size: 30px;
+   border-radius: 10px;   
+}
+h3 {
+   background-color: #34495E;
+   color: white;
+   border: 1px ;
+   padding: 5px;
+   border-radius: 5px;   
+ }
+ .avatar {
+   /* cambia estos dos valores para definir el tamaño de tu círculo */
+   height: 250px;
+   width: 250px;
+   /* los siguientes valores son independientes del tamaño del círculo */
+   background-repeat: no-repeat;
+   background-position: 50%;
+   border-radius: 50%;
+   background-size: 100% auto;
+}
+
+.remove-bg {
+   filter: brightness(1.1);
+   mix-blend-mode: multiply;
+   width: 20px;
+   height: 20px;
+}
+.tareas1_c, .tareas2_c {
+   display: none;
+}
